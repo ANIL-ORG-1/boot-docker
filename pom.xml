@@ -45,7 +45,7 @@
                   <dockerDirectory>${project.basedir}</dockerDirectory>
                   <imageName>kammana/${project.artifactId}</imageName>
                   <buildArgs>
-                    <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+                    <JAR_FILE>target/gs-spring-boot-docker-0.1.0.jar</JAR_FILE>
                   </buildArgs>
               </configuration>
           </plugin>
